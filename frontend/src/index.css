@@ -1,0 +1,38 @@
+.success-message {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+
+  margin-bottom: 18px;
+  padding: 11px 13px;
+
+  border-radius: 9px;
+
+  background: rgba(55, 214, 122, 0.07);
+  border: 1px solid rgba(55, 214, 122, 0.15);
+
+  color: #76e9a1;
+}
+
+.success-message span {
+  width: 18px;
+  height: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(55, 214, 122, 0.16);
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.success-message p {
+  margin: 0;
+
+  font-size: 12px;
+  line-height: 1.5;
+}
